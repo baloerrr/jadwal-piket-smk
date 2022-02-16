@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  display: flex;
+  filter: blur(0px);
+}
+
+.bg h1 {
+  color: white;
+  margin-top: 4rem;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  font-weight: none;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  filter: drop-shadow(0 10px 0px rgb(70, 70, 70));
+}
+
+.bg2 h1 {
+  color: white;
+  margin-top: 4rem;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  font-weight: none;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  filter: drop-shadow(0 10px 0px rgb(70, 70, 70));
+}
+
+.bg2 {
+  width: 100%;
+  min-height: 200px;
+}
+
+body {
+  background-image: url(image/pixel2.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  font-family: cursive;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.header td {
+  color: rgb(70, 70, 70);
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  line-height: 90px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  background-color: rgb(255, 255, 255);
+
+  height: 90px;
+}
+
+.header table {
+  width: 215px;
+}
+.table table {
+  width: 215px;
+  text-align: center;
+  color: rgb(70, 70, 70);
+  font-size: 25px;
+}
+
+td.atas {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+td.terakhir {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 30px;
+}
+td.bawah {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.animasi {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.Tombol-aktif {
+  padding: 10px 40px;
+  margin-top: 150px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 50px;
+  color: rgb(70, 70, 70);
+  text-decoration: none;
+  display: block;
+  margin-inline: 27.5rem;
+}
+
+.putih {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(70, 70, 70);
+  text-shadow: 0px -2px rgb(70, 70, 70);
+}
+
+.Tombol-aktif:active {
+  transform: translate(100px 52px);
+  -webkit-transform: translate(0px 5px);
+  border-bottom: 1px solid;
+}
+
+.Tombol-aktiv {
+  padding: 10px 40px;
+  margin-top: 250px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 50px;
+  color: rgb(70, 70, 70);
+  text-decoration: none;
+  margin-inline: 27.5rem;
+}
+
+.Tombol-aktiv:active {
+  transform: translate(100px 52px);
+  -webkit-transform: translate(0px 5 px);
+  border-bottom: 1px solid;
+}
+
+.border-header {
+  border: 10px solid rgb(70, 70, 70);
+}
+
+button {
+  border: none;
+  margin-top: 50px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 3vw;
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.warna {
+  background-color: rgb(255, 255, 255);
+}
+.warna1 {
+  background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: burlywood;
+}
+h1 {
+  color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+  .bg h1 {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .table {
+    display: block;
+  }
+
+  .table-main {
+    margin-top: 30px;
+  }
+
+  .isi {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bg2 h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  button {
+    margin-top: 15px;
+    padding: 20px 6rem;
+    font-size: 4vw;
+  }
+}
