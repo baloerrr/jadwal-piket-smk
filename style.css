@@ -39,7 +39,8 @@
 }
 
 body {
-  background-image: url(image/pixel2.png);
+/*   background-image: url(image/pixel2.png); */
+  background-color: #000035;
   background-repeat: repeat-y;
   background-size: cover;
   font-family: cursive;
